@@ -1,0 +1,26 @@
+[
+    {
+        "id":"1",
+        "regione":"Umbria",
+        "numAbitanti":"50000",
+        "isAutonoma":"false"
+    },
+    {
+        "id":"2",
+        "regione":"Lazio",
+        "numAbitanti":"300000",
+        "isAutonoma":"false"
+    },
+    {
+        "id":"3",
+        "regione":"Toscana",
+        "numAbitanti":"500000",
+        "isAutonoma":"false"
+    },
+    {
+        "id":"4",
+        "regione":"Puglia",
+        "numAbitanti":"500000",
+        "isAutonoma":"false"
+    }
+]

@@ -1,0 +1,21 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+
+::selection {
+  color:#ffffff; background:#21D192;
+}
+
+
+
+#bt::first-letter{color:white; background: #000000;}
+
+
+.cent{
+display: block;
+}
+ #ch{
+  color: #7c4dff;
+  opacity: 60%;
+ }
