@@ -8,14 +8,15 @@
     <link rel="icon" href="images\profile-user.png">
     <link rel="stylesheet" href="./bootstrap/css bootstap/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/tether.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <script src="js/regioni.js"></script>
+    <script src="./js/regioni.js"></script> 
   </head>
   <body>
+
     <!-- Navbar  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="index.html"><u style="text-decoration-color: #21d192"><b>Combo Cascata</b></u></a>
       <button
         class="navbar-toggler"
@@ -37,7 +38,7 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="second\second.html">Second page</a>
+            <a class="nav-link" href="second\second.html">Calcolatrice</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -81,8 +82,10 @@
         </form>
       </div>
     </nav>
-    
-    
+  <br>
+  
+
+
     <div class="container form-inline mt-5">
       <!-- Jumbotron -->
       <div class="col-6">
@@ -127,8 +130,7 @@
 
     <div class="container mt-5">
       <div
-        class="row h-100 justify-content-center align-items-center text-center"
-      >
+        class="row h-100 justify-content-center align-items-center text-center">
         <div class="col-md-4">
           <div>
             <h3>Seleziona una</h3>
@@ -138,7 +140,7 @@
           </div>
           <div class="container mt-4">
             <select id="regione" onchange="getProvincia(value)">
-              <option value="0">Regione</option>
+              <option value="0">Seleziona</option>
               <option value="1">Lazio</option>
               <option value="2">Toscana</option>
               <option value="3"></option>
@@ -153,8 +155,8 @@
             </h3>
           </div>
           <div class="container mt-4">
-            <select id="provincia" onchange="getprovincia(value)">
-              <option value="0">Provincia</option>
+            <select id="provincia" onchange="getComune(value)">
+              <option value="0">Seleziona</option>
             </select>
           </div>
         </div>
@@ -166,28 +168,32 @@
             </h3>
           </div>
           <div class="container mt-4">
-            <select id="comune" onchange="getcomune(value)">
-              <option value="0">Comune</option>
+            <select id="comune" >
+              <option value="0">Seleziona</option>
             </select>
           </div>
         </div>
       </div>
     </div>
-    ]
 
     <!-- Button -->
     <div class="container mt-5">
       <div class="row justify-content-center">
-        <button type="button" class="btn btn-light col-md-8">
-          <b id="ch">MOSTRA RISULTATO</b>
+        <button type="button" class="btn btn-light col-md-8" onclick="VisualizzaScelte()">
+          <b id="ch">MOSTRA SCELTE</b>
         </button>
       </div>
     </div>
 
     <!-- Mostra risultato -->
-    <div class="row">
-      <p id="result"></p>
+    <div class="container mt-5">
+      <div class="row">
+        <p id="result"></p>
+      </div>
     </div>
+    <br>
+
+
 
 
     <!-- Footer -->
