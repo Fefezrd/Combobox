@@ -1,0 +1,252 @@
+[
+    {
+        "id": 1,
+        "nome": "Agliè",
+        "capoluogo": false
+    },
+    {
+        "id": 2,
+        "nome": "Airasca",
+        "capoluogo": false
+    },
+    {
+        "id": 3,
+        "nome": "Ala di Stura",
+        "capoluogo": false
+    },
+    {
+        "id": 4,
+        "nome": "Albiano d'Ivrea",
+        "capoluogo": false
+    },
+    {
+        "id": 5,
+        "nome": "Almese",
+        "capoluogo": false
+    },
+    {
+        "id": 6,
+        "nome": "Alpette",
+        "capoluogo": false
+    },
+    {
+        "id": 7,
+        "nome": "Alpignano",
+        "capoluogo": false
+    },
+    {
+        "id": 8,
+        "nome": "Andezeno",
+        "capoluogo": false
+    },
+    {
+        "id": 9,
+        "nome": "Andrate",
+        "capoluogo": false
+    },
+    {
+        "id": 10,
+        "nome": "Angrogna",
+        "capoluogo": false
+    },
+    {
+        "id": 11,
+        "nome": "Arignano",
+        "capoluogo": false
+    },
+    {
+        "id": 12,
+        "nome": "Avigliana",
+        "capoluogo": false
+    },
+    {
+        "id": 13,
+        "nome": "Azeglio",
+        "capoluogo": false
+    },
+    {
+        "id": 14,
+        "nome": "Bairo",
+        "capoluogo": false
+    },
+    {
+        "id": 15,
+        "nome": "Balangero",
+        "capoluogo": false
+    },
+    {
+        "id": 16,
+        "nome": "Baldissero Canavese",
+        "capoluogo": false
+    },
+    {
+        "id": 17,
+        "nome": "Baldissero Torinese",
+        "capoluogo": false
+    },
+    {
+        "id": 18,
+        "nome": "Balme",
+        "capoluogo": false
+    },
+    {
+        "id": 19,
+        "nome": "Banchette",
+        "capoluogo": false
+    },
+    {
+        "id": 20,
+        "nome": "Barbania",
+        "capoluogo": false
+    },
+    {
+        "id": 21,
+        "nome": "Bardonecchia",
+        "capoluogo": false
+    },
+    {
+        "id": 22,
+        "nome": "Barone Canavese",
+        "capoluogo": false
+    },
+    {
+        "id": 23,
+        "nome": "Beinasco",
+        "capoluogo": false
+    },
+    {
+        "id": 24,
+        "nome": "Bibiana",
+        "capoluogo": false
+    },
+    {
+        "id": 25,
+        "nome": "Bobbio Pellice",
+        "capoluogo": false
+    },
+    {
+        "id": 26,
+        "nome": "Bollengo",
+        "capoluogo": false
+    },
+    {
+        "id": 27,
+        "nome": "Borgaro Torinese",
+        "capoluogo": false
+    },
+    {
+        "id": 28,
+        "nome": "Borgiallo",
+        "capoluogo": false
+    },
+    {
+        "id": 29,
+        "nome": "Borgofranco d'Ivrea",
+        "capoluogo": false
+    },
+    {
+        "id": 30,
+        "nome": "Borgomasino",
+        "capoluogo": false
+    },
+    {
+        "id": 31,
+        "nome": "Borgone Susa",
+        "capoluogo": false
+    },
+    {
+        "id": 32,
+        "nome": "Bosconero",
+        "capoluogo": false
+    },
+    {
+        "id": 33,
+        "nome": "Brandizzo",
+        "capoluogo": false
+    },
+    {
+        "id": 34,
+        "nome": "Bricherasio",
+        "capoluogo": false
+    },
+    {
+        "id": 35,
+        "nome": "Brosso",
+        "capoluogo": false
+    },
+    {
+        "id": 36,
+        "nome": "Brozolo",
+        "capoluogo": false
+    },
+    {
+        "id": 37,
+        "nome": "Bruino",
+        "capoluogo": false
+    },
+    {
+        "id": 38,
+        "nome": "Brusasco",
+        "capoluogo": false
+    },
+    {
+        "id": 39,
+        "nome": "Bruzolo",
+        "capoluogo": false
+    },
+    {
+        "id": 40,
+        "nome": "Buriasco",
+        "capoluogo": false
+    },
+    {
+        "id": 41,
+        "nome": "Burolo",
+        "capoluogo": false
+    },
+    {
+        "id": 42,
+        "nome": "Busano",
+        "capoluogo": false
+    },
+    {
+        "id": 43,
+        "nome": "Bussoleno",
+        "capoluogo": false
+    },
+    {
+        "id": 44,
+        "nome": "Buttigliera Alta",
+        "capoluogo": false
+    },
+    {
+        "id": 45,
+        "nome": "Cafasse",
+        "capoluogo": false
+    },
+    {
+        "id": 46,
+        "nome": "Caluso",
+        "capoluogo": false
+    },
+    {
+        "id": 47,
+        "nome": "Cambiano",
+        "capoluogo": false
+    },
+    {
+        "id": 48,
+        "nome": "Campiglione Fenile",
+        "capoluogo": false
+    },
+    {
+        "id": 49,
+        "nome": "Candia Canavese",
+        "capoluogo": false
+    },
+    {
+        "id": 50,
+        "nome": "Candiolo",
+        "capoluogo": false
+    }
+]

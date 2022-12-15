@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Combo Cascata</title>
-    <link rel="icon" href="images\profile-user.png" />
-    <link rel="stylesheet" href="./bootstrap/css bootstap/bootstrap.min.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-      integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="icon" href="images\profile-user.png">
+    <link rel="stylesheet" href="./bootstrap/css bootstap/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="js/regioni.js"></script>
   </head>
   <body>
     <!-- Navbar  -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html"><b>Combo Cascata</b></a>
+      <a class="navbar-brand" href="index.html"><u style="text-decoration-color: #21d192"><b>Combo Cascata</b></u></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -139,9 +136,8 @@
               <u style="text-decoration-color: #21d192"><b>Regione:</b></u>
             </h3>
           </div>
-          <br />
-          <div>
-            <select id="regione">
+          <div class="container mt-4">
+            <select id="regione" onchange="getProvincia(value)">
               <option value="0">Regione</option>
               <option value="1">Lazio</option>
               <option value="2">Toscana</option>
@@ -156,13 +152,9 @@
               <u style="text-decoration-color: #21d192"><b>Provincia:</b></u>
             </h3>
           </div>
-          <br />
-          <div>
-            <select id="provincia">
+          <div class="container mt-4">
+            <select id="provincia" onchange="getprovincia(value)">
               <option value="0">Provincia</option>
-              <option value="1"></option>
-              <option value="2"></option>
-              <option value="3"></option>
             </select>
           </div>
         </div>
@@ -173,28 +165,30 @@
               <u style="text-decoration-color: #21d192"><b>Comune:</b></u>
             </h3>
           </div>
-          <br />
-          <div>
-            <select id="comune">
+          <div class="container mt-4">
+            <select id="comune" onchange="getcomune(value)">
               <option value="0">Comune</option>
-              <option value="1"></option>
-              <option value="2"></option>
-              <option value="3"></option>
             </select>
           </div>
         </div>
       </div>
     </div>
     ]
+
+    <!-- Button -->
     <div class="container mt-5">
       <div class="row justify-content-center">
         <button type="button" class="btn btn-light col-md-8">
-          <b id="ch">BUTTON</b>
+          <b id="ch">MOSTRA RISULTATO</b>
         </button>
       </div>
     </div>
 
-    <br />
+    <!-- Mostra risultato -->
+    <div class="row">
+      <p id="result"></p>
+    </div>
+
 
     <!-- Footer -->
     <br /><br /><br />

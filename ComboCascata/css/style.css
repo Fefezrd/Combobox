@@ -1,6 +1,6 @@
 .selector-for-some-widget {
-    box-sizing: content-box;
-  }
+  box-sizing: content-box;
+}
 
 
 ::selection {
@@ -15,7 +15,7 @@
 .cent{
 display: block;
 }
- #ch{
+#ch{
   color: #7c4dff;
   opacity: 60%;
- }
+}
